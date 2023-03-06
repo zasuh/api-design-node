@@ -1,15 +1,14 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
     "sourceMap": true,
-    "outDir": "dist",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": false,
     "lib": [
       "esnext"
     ],
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "declaration": true
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["src/**/*.ts"]
 }
